@@ -22,7 +22,7 @@
         <!ELEMENT TOTAL (#PCDATA)>
       <!ELEMENT ERROR (#PCDATA)> <!-- Either the relative error or the relative residual norm -->
       <!ELEMENT ITER (#PCDATA)> <!-- Number of iterations -->
-    <!ELEMENT BEST_SOLVER CDATA> <!-- Id of the best solver -->
+    <!ELEMENT BEST_SOLVER (#PCDATA)> <!-- Id of the best solver -->
     <!ELEMENT GLOBAL_PARAMS (#PCDATA)> <!-- Parameters shared by all solvers -->
 
 <!ATTLIST SOLVER ID CDATA #REQUIRED>
